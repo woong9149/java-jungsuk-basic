@@ -15,6 +15,17 @@ public class VarEx4 {
 
 		int i = 'A';
 		System.out.println(i); // 문자 A의 keycode가 출력
+		
+		//두 변수의 값을 교환
+		int x = 4, y = 2;
+		int tmp;
+		
+		tmp = x; // 1. x의 값을 tmp에 저장
+		x = y; // y의 값을 x에 저장
+		y = tmp; // tmp의 값을 y에 저장
+		
+		System.out.println("x = " + x);
+		System.out.println("y = " + y);
 	}
 
 }
