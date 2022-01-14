@@ -5,8 +5,8 @@ public class VarEx4 {
 		// TODO Auto-generated method stub
 		String s1 = "AB";
 		String s2 = new String("AB");
-		
 		String s3 = "A" + "B"; // "AB
+		
 		/**
 		 *  - "" + 7 -> "" + "7" -> "7"
 		 *  - 문자열 + any type -> 문자열
@@ -26,6 +26,16 @@ public class VarEx4 {
 		
 		System.out.println("x = " + x);
 		System.out.println("y = " + y);
+		
+		/**
+		 *  변수
+		 *  - 기본형(Primitive type)
+		 *  	boolean, char, byte, short, int, long, float, double 8개
+		 *  	실제 값을 저장
+		 *  - 참조형(Reference type)
+		 *  	기본형을 제외한 나머지 (String, System 등)
+		 *  	메모리 주소를 저장(4byte 또는 8byte)
+		 */
 	}
 
 }
