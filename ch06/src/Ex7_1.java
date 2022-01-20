@@ -16,7 +16,22 @@ public class Ex7_1 {
 	 *  
 	 */
 	
-	
+	public static void main(String args[]) {
+		Card c = new Card();
+		//인스턴스 변수 => 인스턴스를 통해서 접근 
+		c.kind = "HEART";
+		c.number = 5;
+
+		//클래스 변수 => 클래스명으로 접근(객체 생성없이 사용 가능)
+
+		//사용 가능하나 권장x
+		c.width = 200;
+		c.height = 300;
+
+		//권장
+		Card.width = 200;
+		Card.height = 300;
+	}
 }
 
 class Card {
@@ -34,18 +49,5 @@ class Card {
 	 */
 }
 
-Card c = new Card();
-//인스턴스 변수 => 인스턴스를 통해서 접근 
-c.kind = "HEART";
-c.number = 5;
 
-//클래스 변수 => 클래스명으로 접근(객체 생성없이 사용 가능)
-
-//사용 가능하나 권장x
-c.width = 200;
-c.height = 300;
-
-//권장
-Card.width = 200;
-Card.height = 300;
 
