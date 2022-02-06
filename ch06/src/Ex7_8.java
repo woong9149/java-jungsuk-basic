@@ -16,10 +16,17 @@ public class Ex7_8 {
 		 *  기본 생성자(default constructor)
 		 *  - 매개변수가 없는 생성자 
 		 *  - 생성자가 하나도 없을 때만, 컴파일러가 기본 생성자 자동 추가 
+		 *  
+		 *  매개변수가 있는 생성
 		 */
 	}
 	
 	Data_1 d1 = new Data_1();
+	/**
+	 * 1. 참조변수 d1가 만들어짐.
+	 * 2. new 연산자가 객체를 만듬.
+	 * 3. 객체 초기화 
+	 */
 	Data_2 d2 = new Data_2(); //compile error 발
 
 }
