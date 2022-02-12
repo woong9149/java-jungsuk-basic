@@ -2,8 +2,6 @@
 public class Ex7_10 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
 		/**
 		 *  변수의 초기화
 		 *  - 지역변수(lv)는 수동 초기화 해야함
