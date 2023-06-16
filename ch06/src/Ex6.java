@@ -27,6 +27,9 @@ public class Ex6 {
 		 *		(인스턴스화)
 		 *  
 		 *
+		 * 하나의 소스파일에 여러 클래스 작성
+		 * - public class가 있는 경우: 소스파일의 이름은 반드시 public class의 이름과일치해야 한다.
+		 * - public class가 없는 경우: 소스파일의 이름은 class들의 이름 모두가 가능하다.
 		 */
 
 	}
